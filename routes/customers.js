@@ -4,7 +4,7 @@ const { validate } = require('../helpers/helpers');
 const { userData, userFields } = require('../helpers/constants');
 
 /* GET users listing. */
-router.get('/', function(req, res, next) {
+router.get('/', function(req, res) {
     return res.send(userData);
 });
 
